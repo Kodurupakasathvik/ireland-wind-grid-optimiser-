@@ -1,18 +1,39 @@
 # Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
+*.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Virtual environments
+# Conda / environments
+.env/
 .venv/
 venv/
 env/
 
-# Secrets
-.env
+# Data
+data/raw/
+data/interim/
+data/processed/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs / logs
+*.log
+*.txt
+
+# Temporary / experimental files
+notepad
+scr/
+
+# Local diagnostic scripts
+clean_transformers.py
+diagnose_s2_slack.py
+fix_links.py
+run_all_scenarios_ac_validation
+run_s2_valid_ac_bottleneck.py
+summarize_s1_s5.py
+test_s2_*.py
+
+# Large notebooks
+notebooks/
