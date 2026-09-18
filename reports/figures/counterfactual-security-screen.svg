@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Counterfactual LP potential versus AC-security-screened energy</title>
+  <desc id="desc">Only S5 and S6 pass the AC security screen and can receive counterfactual energy, value, or emissions credit.</desc>
+  <rect width="1120" height="640" fill="white"/>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#17212b}.title{font-size:25px;font-weight:700}.sub{font-size:13px;fill:#556372}.axis{font-size:12px;fill:#556372}.small{font-size:11px;fill:#556372}.value{font-size:13px;font-weight:700}</style>
+  <text x="105" y="36" class="title">Counterfactual energy: LP potential versus AC-security screen</text>
+  <text x="105" y="58" class="sub">Each group is one independent 15-minute snapshot. Only green bars are eligible for value or CO2 credit.</text>
+  <rect x="650" y="25" width="14" height="14" fill="#2c6eaf"/><text x="671" y="37" class="small">LP potential before AC screen</text><rect x="895" y="25" width="14" height="14" fill="#138a72"/><text x="916" y="37" class="small">AC-security-screened</text>
+  <line x1="105" y1="500" x2="1080" y2="500" stroke="#17212b"/><line x1="105" y1="100" x2="105" y2="500" stroke="#17212b"/>
+  <g stroke="#cbd5df"><line x1="105" y1="500" x2="1080" y2="500"/><line x1="105" y1="400" x2="1080" y2="400"/><line x1="105" y1="300" x2="1080" y2="300"/><line x1="105" y1="200" x2="1080" y2="200"/><line x1="105" y1="100" x2="1080" y2="100"/></g>
+  <g class="axis" text-anchor="end"><text x="95" y="504">0</text><text x="95" y="404">200</text><text x="95" y="304">400</text><text x="95" y="204">600</text><text x="95" y="104">800</text></g><text x="25" y="320" class="axis" transform="rotate(-90 25 320)">Energy in interval (MWh)</text>
+  <g fill="#2c6eaf"><rect x="155" y="500" width="34" height="0"/><rect x="315" y="500" width="34" height="0"/><rect x="475" y="500" width="34" height="0"/><rect x="635" y="500" width="34" height="0"/><rect x="795" y="135" width="34" height="365"/><rect x="955" y="417" width="34" height="83"/></g>
+  <g fill="#138a72"><rect x="195" y="500" width="34" height="0"/><rect x="355" y="500" width="34" height="0"/><rect x="515" y="500" width="34" height="0"/><rect x="675" y="500" width="34" height="0"/><rect x="835" y="135" width="34" height="365"/><rect x="995" y="417" width="34" height="83"/></g>
+  <g class="value" text-anchor="middle"><text x="812" y="125">729.24</text><text x="852" y="125">729.24</text><text x="972" y="407">165.73</text><text x="1012" y="407">165.73</text></g>
+  <g text-anchor="middle"><text x="192" y="525">S1 normal</text><text x="352" y="525">S2 peak demand</text><text x="512" y="525">S3 high wind</text><text x="672" y="525">S4 high wind + demand</text><text x="832" y="525">S5 high availability</text><text x="992" y="525">S6 maximum stress</text><text x="192" y="547" class="small">AC insecure</text><text x="352" y="547" class="small">AC not converged</text><text x="512" y="547" class="small">AC not converged</text><text x="672" y="547" class="small">AC not converged</text><text x="832" y="547" class="small">AC security passed</text><text x="992" y="547" class="small">AC security passed</text></g>
+</svg>

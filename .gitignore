@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Conda / environments
+.env/
+.venv/
+venv/
+env/
+
+# This project does not publish a DVC configuration or remote.
+.dvc/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Reviewed result tables published with the release. Raw source inputs remain
+# excluded because they must be independently obtained and checked for reuse.
+!data/
+!data/processed/
+data/processed/*
+!data/processed/counterfactual_analysis.csv
+!data/processed/forecast_model_selection.csv
+!data/processed/production_multi_horizon_security.csv
+!data/processed/s4_5j_q_continuation.csv
+!data/processed/s5_5_final_stage5_consolidation.csv
+
+# Legacy malformed-path outputs are not release artifacts.
+data/processeds3_*.csv
+.dvcignore
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs / logs
+results/
+*.log
+*.txt
+
+# Temporary / experimental files
+notepad
+scr/
+
+# Local diagnostic scripts
+clean_transformers.py
+diagnose_s2_slack.py
+fix_links.py
+run_all_scenarios_ac_validation
+run_s2_valid_ac_bottleneck.py
+summarize_s1_s5.py
+test_s2_*.py
+
+# Large notebooks
+notebooks/

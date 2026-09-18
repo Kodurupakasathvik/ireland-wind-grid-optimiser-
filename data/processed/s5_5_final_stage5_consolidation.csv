@@ -1,0 +1,5 @@
+stage,role,q_support_mvar,thermal_multiplier,min_voltage_pu,weakest_bus,undervoltage_buses,max_line_loading_pct,overloaded_lines,max_transformer_loading_pct,overloaded_transformers,voltage_security,thermal_security,overall_security,valid_ac_solution
+S5.1,baseline,0.0,1.0,0.7389292262435733,way/104388595-220,26.0,174.41672137565723,9.0,34.91764008351319,0.0,False,False,False,True
+S5.2,voltage_support,300.0,1.0,0.9172366589268466,,0.0,166.23409144864289,9.0,,,True,False,False,True
+S5.3,thermal_reinforcement,300.0,1.75,,,,94.9909093992245,0.0,,,True,True,True,True
+S5.4,joint_security,300.0,1.75,0.9172366589268466,virtual_way/1059093587:0-220,0.0,94.9909093992245,0.0,33.07146106921878,0.0,True,True,True,True

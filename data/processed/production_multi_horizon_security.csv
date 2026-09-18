@@ -1,0 +1,6 @@
+horizon,converged,minimum_voltage_pu,maximum_line_loading_percent,overloaded_lines,physically_secure,message
+15min,True,0.9066974588371101,237.4074228671171,"merged_way/1231251986-220+2,merged_way/257889771-220+1,merged_way/61295764-220+1,way/343436171-220",False,AC solution is not secure: minimum bus voltage is below 0.950 pu.
+30min,True,0.9073253077663851,236.9876642887503,"merged_way/1231251986-220+2,merged_way/257889771-220+1,merged_way/61295764-220+1,way/343436171-220",False,AC solution is not secure: minimum bus voltage is below 0.950 pu.
+1hour,True,0.9078714230400294,236.6213012949802,"merged_way/1231251986-220+2,merged_way/257889771-220+1,merged_way/61295764-220+1,way/343436171-220",False,AC solution is not secure: minimum bus voltage is below 0.950 pu.
+2hour,True,0.9096706699155357,235.40600380844378,"merged_way/1231251986-220+2,merged_way/257889771-220+1,merged_way/61295764-220+1,way/343436171-220",False,AC solution is not secure: minimum bus voltage is below 0.950 pu.
+4hour,True,0.9139347167196542,232.47453977286293,"merged_way/1231251986-220+2,merged_way/257889771-220+1,merged_way/61295764-220+1,way/343436171-220",False,AC solution is not secure: minimum bus voltage is below 0.950 pu.
